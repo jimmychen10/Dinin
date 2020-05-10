@@ -1,0 +1,102 @@
+body{
+    background-color: #FEF7E1 ;
+    
+}
+
+.results{
+    height: 50px;
+    width: auto;
+    text-align: center;
+}
+.results h5{
+    margin-top: 25px;
+}
+
+
+
+
+.history {
+    margin: 0px auto;
+    /* change height to auto */
+    height: 500px;  
+    width: 350px;
+    border: gainsboro solid 1px;
+    overflow: scroll;
+    border-radius: 1%;
+    
+}
+
+.history .resturants {
+    margin-bottom: 5px ;
+    display: flex;
+    justify-content: space-around;  
+    border-top: gainsboro solid 1px;
+    border-bottom: gainsboro solid 1px;
+}
+
+.history .resturants img{
+    margin: 10px 0;
+    margin-left: 10px;
+    height: 75px; 
+    width: 75px;
+}
+
+.history .resturants .info{
+     margin-top: 10px;
+     margin-bottom: 0px;
+     margin-left: 10px;
+     width: 132px;
+}
+.history .resturants p{
+    font-size: medium;
+}
+.history .resturants .name{
+    margin-bottom: 0px;
+}
+.checked {
+    color: orange;
+}
+.ratings{
+    margin-bottom: 3px;
+}
+.history .resturants .heart{
+    margin: auto 0px;
+    font-size: medium;
+    width: 71.31px;
+    color: hotpink;    
+}
+.history .resturants .heart:hover{
+    color: black;    
+}
+
+
+.history .resturants .lastvisit{
+    margin: auto 0px;
+    font-size: medium;
+    width: 71.31px;
+}
+
+
+/* 
+Width: 1.98
+Height: 4.29
+
+*/
+.resturants{
+    display: none;
+    list-style-type: none;
+    
+  }
+  .resturants li{
+    border: 1px solid #cddc39;
+    border-radius: 3%;
+    text-align: center;
+    background-color: #fef0e1;
+  }
+
+.res{
+    position: fixed;
+    width: 238px;
+    margin-left: 13%;
+    border-radius: 2%;
+  }

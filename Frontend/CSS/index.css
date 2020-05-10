@@ -1,0 +1,66 @@
+body{
+    background-color: #FEF7E1 ;
+    
+}
+span{
+    color: #cddc39;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    margin-top: 50%;
+    
+
+}
+
+
+.input-group.md-form.form-sm.form-1 input{
+    border: 1px solid #bdbdbd;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+  }
+  .input-group.md-form.form-sm.form-2 input {
+    border: 1px solid #bdbdbd;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+  }
+
+  .input-group.md-form.form-sm.form-2 input.lime-border {
+    border: 1px solid #cddc39;
+  }
+
+.login{
+    margin-left: auto;
+    margin-right: 5%;
+    margin-top: 25px;
+    border: #cddc39 solid 2px;
+    text-align: center;
+}
+
+.signup{
+    margin-top: 250px;
+    color: black;
+    margin-left: 15%;
+
+    position: fixed;
+}
+
+.resturants{
+  display: none;
+  list-style-type: none;
+  
+}
+.resturants li{
+  border: 1px solid #cddc39;
+  border-radius: 3%;
+  text-align: center;
+  background-color: #fef0e1;
+}
+
+.res{
+  
+  width: 238px;
+  margin-left: 13%;
+  border-radius: 2%;
+}

@@ -1,0 +1,39 @@
+body{
+    background-color: #FEF7E1 ;
+    
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    margin-top: 50%;
+
+}
+
+span{
+    color: #cddc39;
+}
+
+.signup{
+    margin-top: 150px;
+    color: black;
+    margin-left: 15%;
+}
+.resturants{
+    display: none;
+    list-style-type: none;
+    
+  }
+  .resturants li{
+    border: 1px solid #cddc39;
+    border-radius: 3%;
+    text-align: center;
+    background-color: #fef0e1;
+  }
+
+.res{
+    position: fixed;
+    width: 238px;
+    margin-left: 13%;
+    border-radius: 2%;
+  }
